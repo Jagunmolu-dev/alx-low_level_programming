@@ -1,5 +1,3 @@
-#include main.c
-
 #include <stdio.h>
 /**
  * main - main function
