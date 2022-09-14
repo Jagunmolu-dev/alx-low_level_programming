@@ -1,19 +1,19 @@
 #include "main.h"
-
 /**
- * main - This program prints the phrase _putchar
- * Return: 0
+ * main - Entry point
+ *
+ * Return: Always 0 (Sucess)
  */
 int main(void)
 {
-	char ch[] = "_putchar";
-	int i;
+	char *sh = "main";
 
-	for (i = 0; ch[i] != '\0'; i++)
+	while (*sh)
 	{
-		_putchar(ch[i]);
+		_putchar(*sh);
+		sh++;
 	}
-
 	_putchar('\n');
+
 	return (0);
 }
